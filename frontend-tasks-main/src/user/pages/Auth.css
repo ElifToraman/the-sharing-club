@@ -1,0 +1,41 @@
+.welcome {
+    position: relative;
+    margin: 7rem auto;
+    width: 50%;
+    font-size: 13px;
+    text-align: center;
+    color: #8f7a49;
+    font-style: italic;
+}
+.authentication__header {
+    color: white;
+    text-align: center;
+}
+
+.authentication {
+    width: 90%;
+    max-width: 25rem;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.authentication form {
+    margin-bottom: 1rem;
+}
+.logo-big {
+    width: auto;
+    height: 10rem;
+}
+.text {
+    align-self: end;
+}
+.profile {
+    margin: 7rem auto;
+    font-size: 25px;
+    text-align: center;
+    color: #8f7a49;
+    font-style: italic;
+}
+.profile h3 {
+    display: none;
+}

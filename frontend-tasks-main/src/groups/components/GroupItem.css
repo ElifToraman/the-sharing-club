@@ -1,0 +1,45 @@
+.group-item {
+    margin: 1rem;
+    width: calc(45% - 2rem);
+    min-width: 17.5rem;
+}
+
+.group-item a {
+    background: #292929;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    justify-content: center;
+
+}
+
+.group-item a:hover,
+.group-item a:active {
+    background: #DDBA2E;
+    color:black;
+    cursor: pointer;
+}
+
+.group-item__content {
+    padding: 0;
+    background-color: rgba(38, 65, 60, 0.76);
+}
+
+.group-item__info {
+    padding: 1rem;
+    text-align: center;
+}
+
+.group-item__info h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #DDBA2E;
+}
+.group-item:hover h2,
+.group-item:active h2{
+    color: #292929;
+}
